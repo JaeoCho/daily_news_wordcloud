@@ -1,6 +1,5 @@
 import datetime
 
-
-print(datetime.datetime.now().year)
-print(datetime.datetime.now().month)
-print(datetime.datetime.now().day)
+YEAR = datetime.datetime.now().year
+MONTH = datetime.datetime.now().month
+DAY = datetime.datetime.now().day
